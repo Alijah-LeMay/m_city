@@ -1,0 +1,43 @@
+/*=============================
+            MATCHES HOME
+===============================*/
+.container_matches {
+  width: 1024px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.matches_button_wrapper {
+  text-align: center;
+}
+.home_matches_wrapper {
+  background: #98c5e9;
+  margin-top: 9px;
+  padding: 50px 0px;
+  max-width: 100%;
+}
+
+.home_matches_wrapper .home_matches {
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 60px;
+  max-width: 100%;
+}
+
+.home_matches_wrapper .home_matches .item {
+  width: 50%;
+  margin: 35px 0px;
+}
+
+.home_matches_wrapper .home_matches .item .wrapper {
+  padding: 0 15px;
+}
+@media (max-width: 900px) {
+  .home_matches_wrapper .home_matches {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .home_matches_wrapper .home_matches .item {
+    width: 100%;
+    margin: 15px 0;
+  }
+}

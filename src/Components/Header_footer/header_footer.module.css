@@ -1,0 +1,18 @@
+/*=============================
+            HEADER FOOTER
+===============================*/
+
+.bck_blue {
+  background: #0d1831;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 30px 0px;
+}
+
+footer .footer_discl {
+  margin: 10px 0px;
+}

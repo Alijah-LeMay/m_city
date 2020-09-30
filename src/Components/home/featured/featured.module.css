@@ -1,0 +1,136 @@
+/*=============================
+            FEATURED
+===============================*/
+
+.featured_wrapper {
+  margin: 0 auto;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 90px;
+  height: 800px;
+  max-height: 90vw;
+  overflow: hidden;
+}
+.featured_stripes_wrapper {
+  position: relative;
+}
+.featured_stripes {
+  position: relative;
+  max-width: 100%;
+}
+.featured_text {
+  position: relative;
+  font-family: 'Righteous', cursive;
+  max-width: 100%;
+}
+
+.featured_stripes .stripe {
+  width: 230px;
+  max-width: 25%;
+  height: 1200px;
+  position: absolute;
+}
+
+.featured_number {
+  font-size: 270px;
+  color: #ffffff;
+  transform: translate(260px, 170px);
+  position: absolute;
+}
+
+.featured_player {
+  width: 500px;
+  height: 500px;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  position: absolute;
+}
+.featured_first {
+  position: absolute;
+  background: #0e1731;
+  color: #ffffff;
+  font-size: 92px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+}
+
+.featured_second {
+  position: absolute;
+  background: #0e1731;
+  color: #ffffff;
+  font-size: 92px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+}
+@media (max-width: 1400px) {
+  .featured_stripes_wrapper {
+    right: 280px;
+  }
+  .featured_stripes {
+    right: -20vw;
+  }
+  .featured_number_wrapper {
+    position: relative;
+    top: 10vw;
+    right: -20vw;
+  }
+  .featured_number {
+    top: -140px;
+    left: -280px;
+  }
+  .featured_first_wrapper {
+    position: relative;
+    top: 10vw;
+    right: -20vw;
+  }
+  .featured_first {
+    top: -140px;
+    left: -280px;
+  }
+  .featured_second_wrapper {
+    position: relative;
+    top: 10vw;
+    right: -20vw;
+  }
+  .featured_second {
+    top: -140px;
+    left: -280px;
+  }
+  .featured_player_wrapper {
+    position: relative;
+    top: 10vw;
+    right: -20vw;
+  }
+  .featured_player {
+    top: -140px;
+    left: -280px;
+  }
+}
+@media (max-width: 900px) {
+  .featured_number {
+    font-size: 30vw;
+  }
+  .featured_first_wrapper {
+    top: 40vw;
+  }
+  .featured_first {
+    font-size: 10vw;
+    top: -400px;
+  }
+  .featured_second_wrapper {
+    top: 50vw;
+  }
+  .featured_second {
+    font-size: 10vw;
+    top: -500px;
+  }
+  .featured_player_wrapper {
+    top: 15vw;
+    right: -40vw;
+  }
+  .featured_player {
+    top: -150px;
+    left: -500px;
+    max-width: 50%;
+  }
+}

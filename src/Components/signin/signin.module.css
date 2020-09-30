@@ -1,0 +1,37 @@
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.error_label {
+  color: #f44336;
+  font-weight: 600;
+  margin: 10px 0px;
+} /*=============================
+            SIGN IN
+===============================*/
+
+.signin_wrapper {
+  margin-top: 96px;
+  padding: 20px;
+  min-height: 70vh;
+  text-align: center;
+}
+
+.signin_wrapper form {
+  width: 350px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.signin_wrapper form button {
+  width: 100%;
+  padding: 10px;
+}
+
+.signin_wrapper h2 {
+  font-family: 'Righteous', cursive;
+  color: #98c6e9;
+  font-size: 50px;
+}

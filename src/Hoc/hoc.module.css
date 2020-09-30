@@ -1,0 +1,18 @@
+/*=============================
+         ADMIN
+===============================*/
+
+.admin_container {
+  margin-top: 96px;
+  display: flex;
+}
+
+.admin_container .admin_left_nav {
+  min-height: 100vh;
+  background: #282828;
+  border-right: 2px solid #01285e;
+}
+
+.admin_container .admin_right {
+  flex-grow: 1;
+}
