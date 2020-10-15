@@ -46,3 +46,8 @@
     margin: 0 10px 0 0;
   }
 }
+@media (max-width: 620px) {
+  .bottomTag_wrapper {
+    flex-direction: column;
+  }
+}

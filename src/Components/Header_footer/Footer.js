@@ -8,9 +8,7 @@ const Footer = () => {
       <div className={classes.footer_logo}>
         <CityLogo width='70px' height='70px' link={true} linkTo='/' />
       </div>
-      <div className={classes.footer_discl}>
-        Manchester city 2018. All rights reserved.
-      </div>
+      <div className={classes.footer_discl}>LemaTech LLC &copy; 2020</div>
     </footer>
   );
 };

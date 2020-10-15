@@ -36,7 +36,7 @@ class MeetPlayers extends Component {
                     size={'100px'}
                     color='#ffffff'
                     responsive
-                    responFontSize='9vw'
+                    responFontSize='8vw'
                     add={{
                       display: 'inline-block',
                       marginBottom: '20px',
@@ -51,7 +51,7 @@ class MeetPlayers extends Component {
                     size='100px'
                     color='#ffffff'
                     responsive
-                    responFontSize='9vw'
+                    responFontSize='8vw'
                     add={{
                       display: 'inline-block',
                       marginBottom: '20px',
@@ -66,7 +66,7 @@ class MeetPlayers extends Component {
                     size='100px'
                     color='#ffffff'
                     responsive
-                    responFontSize='9vw'
+                    responFontSize='8vw'
                     add={{
                       display: 'inline-block',
                       marginBottom: '20px',
@@ -75,24 +75,24 @@ class MeetPlayers extends Component {
                     Players
                   </Tag>
                 </div>
-                <div>
-                  <Tag
-                    bck='#ffffff'
-                    size='27px'
-                    color='#0e1731'
-                    responsive
-                    responFontSize='3vw'
-                    link={true}
-                    linkto='/the_team'
-                    add={{
-                      display: 'inline-block',
-                      marginBottom: '27px',
-                      border: '1px solid #0e1731',
-                    }}
-                  >
-                    Meet them here
-                  </Tag>
-                </div>
+              </div>
+              <div className={classes.bottomTag_wrapper}>
+                <Tag
+                  bck='#ffffff'
+                  size='27px'
+                  color='#0e1731'
+                  responsive
+                  responFontSize='4vw'
+                  link={true}
+                  linkto='/the_team'
+                  add={{
+                    display: 'inline-block',
+                    marginBottom: '27px',
+                    border: '1px solid #0e1731',
+                  }}
+                >
+                  Meet them here
+                </Tag>
               </div>
             </div>
           </div>
