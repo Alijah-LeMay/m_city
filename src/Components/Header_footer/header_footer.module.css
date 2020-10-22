@@ -16,3 +16,8 @@ footer {
 footer .footer_discl {
   margin: 10px 0px;
 }
+
+.link {
+  color: #fff;
+  text-decoration: underline;
+}
